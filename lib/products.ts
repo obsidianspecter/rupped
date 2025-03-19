@@ -1,0 +1,232 @@
+import type { Product } from "./types"
+
+export const products: Product[] = [
+  {
+    id: "1",
+    name: "Rugged Expedition Backpack",
+    description:
+      "Our flagship 65L backpack designed for multi-day treks with reinforced stitching, waterproof materials, and an advanced suspension system for maximum comfort.",
+    price: 249.99,
+    image: "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?w=800&auto=format&fit=crop",
+    additionalImages: [
+      "https://images.unsplash.com/photo-1520121401995-928cd50d4e27?w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1622560480605-d83c853bc5c3?w=800&auto=format&fit=crop",
+    ],
+    category: "backpacks",
+    rating: 4.8,
+    reviewCount: 127,
+    isNew: true,
+    features: [
+      "65L capacity for multi-day expeditions",
+      "Waterproof ripstop nylon construction",
+      "Advanced suspension system with lumbar support",
+      "Multiple access points and compartments",
+      "Integrated rain cover",
+    ],
+    specifications: [
+      { name: "Weight", value: "4.2 lbs" },
+      { name: "Dimensions", value: '30" x 14" x 9"' },
+      { name: "Material", value: "Ripstop Nylon" },
+      { name: "Capacity", value: "65L" },
+    ],
+  },
+  {
+    id: "2",
+    name: "Alpine Trekking Boots",
+    description:
+      "Waterproof full-grain leather hiking boots with Vibram soles for superior traction on any terrain. Designed for serious hikers who demand durability and comfort.",
+    price: 189.99,
+    image: "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=800&auto=format&fit=crop",
+    additionalImages: [
+      "https://images.unsplash.com/photo-1520219306100-ec69c7d2a8a6?w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=800&auto=format&fit=crop",
+    ],
+    category: "footwear",
+    rating: 4.7,
+    reviewCount: 94,
+    features: [
+      "Full-grain waterproof leather upper",
+      "Vibram® outsole for superior traction",
+      "Gore-Tex® waterproof membrane",
+      "Cushioned EVA midsole",
+      "Reinforced toe cap for protection",
+    ],
+    specifications: [
+      { name: "Weight", value: "2.6 lbs/pair" },
+      { name: "Height", value: '6"' },
+      { name: "Material", value: "Full-grain leather" },
+      { name: "Waterproof", value: "Yes" },
+    ],
+  },
+  {
+    id: "3",
+    name: "All-Weather Expedition Tent",
+    description:
+      "A four-season, 3-person tent built to withstand extreme conditions. Features a geodesic design for stability in high winds and heavy snow loads.",
+    price: 499.99,
+    image: "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=800&auto=format&fit=crop",
+    additionalImages: [
+      "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1523987355523-c7b5b0dd90a7?w=800&auto=format&fit=crop",
+    ],
+    category: "shelter",
+    rating: 4.9,
+    reviewCount: 56,
+    isNew: true,
+    features: [
+      "Geodesic design for stability in extreme conditions",
+      "Waterproof floor and rainfly (5000mm rating)",
+      "Aluminum poles for lightweight strength",
+      "Multiple ventilation points to reduce condensation",
+      "Reflective guy lines and stakes included",
+    ],
+    specifications: [
+      { name: "Capacity", value: "3 person" },
+      { name: "Weight", value: "7.5 lbs" },
+      { name: "Dimensions", value: '88" x 72" x 43"' },
+      { name: "Seasons", value: "4-season" },
+    ],
+  },
+  {
+    id: "4",
+    name: "Tactical LED Headlamp",
+    description:
+      "Ultra-bright 1000 lumen headlamp with adjustable beam, multiple light modes, and 50-hour battery life. Perfect for night hiking, camping, or emergency situations.",
+    price: 79.99,
+    image: "https://images.unsplash.com/photo-1553808373-2c8f03f6c36b?w=800&auto=format&fit=crop",
+    additionalImages: [
+      "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1504384764586-bb4cdc1707b0?w=800&auto=format&fit=crop",
+    ],
+    category: "equipment",
+    rating: 4.6,
+    reviewCount: 203,
+    features: [
+      "1000 lumen maximum brightness",
+      "Adjustable beam from spotlight to floodlight",
+      "5 light modes including red night vision",
+      "50-hour battery life on low setting",
+      "IPX7 waterproof rating",
+    ],
+    specifications: [
+      { name: "Brightness", value: "1000 lumens" },
+      { name: "Battery", value: "Rechargeable Li-ion" },
+      { name: "Runtime", value: "4-50 hours" },
+      { name: "Weight", value: "3.2 oz" },
+    ],
+  },
+  {
+    id: "5",
+    name: "Insulated Titanium Mug",
+    description:
+      "Ultralight double-walled titanium mug that keeps drinks hot for hours without burning your hands. Perfect for backpacking and camping.",
+    price: 39.99,
+    image: "https://images.unsplash.com/photo-1577717903315-1691ae25ab3f?w=800&auto=format&fit=crop",
+    additionalImages: [
+      "https://images.unsplash.com/photo-1544787219-7f47ccb76574?w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=800&auto=format&fit=crop",
+    ],
+    category: "cookware",
+    rating: 4.8,
+    reviewCount: 87,
+    features: [
+      "Double-walled titanium construction",
+      "Ultralight at only 4.2 oz",
+      "450ml capacity",
+      "Foldable handle",
+      "Includes lid with sipping port",
+    ],
+    specifications: [
+      { name: "Capacity", value: "450ml" },
+      { name: "Weight", value: "4.2 oz" },
+      { name: "Material", value: "Titanium" },
+      { name: "Insulated", value: "Yes" },
+    ],
+  },
+  {
+    id: "6",
+    name: "Wilderness Survival Knife",
+    description:
+      "Full-tang high-carbon steel survival knife with ergonomic G10 handle and included Kydex sheath. An essential tool for outdoor adventures.",
+    price: 129.99,
+    image: "https://images.unsplash.com/photo-1574236170880-75fa0a5a6a57?w=800&auto=format&fit=crop",
+    additionalImages: [
+      "https://images.unsplash.com/photo-1623122245120-7eef6faa39c8?w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1580745294621-e44c2b2d7c22?w=800&auto=format&fit=crop",
+    ],
+    category: "tools",
+    rating: 4.9,
+    reviewCount: 142,
+    features: [
+      "Full-tang 1095 high-carbon steel blade",
+      "Drop point design with flat grind",
+      "Ergonomic G10 handle scales",
+      "Included Kydex sheath with belt clip",
+      "Ferro rod striker notch on spine",
+    ],
+    specifications: [
+      { name: "Blade Length", value: '5.5"' },
+      { name: "Overall Length", value: '10.8"' },
+      { name: "Blade Material", value: "1095 High-carbon steel" },
+      { name: "Handle Material", value: "G10" },
+    ],
+  },
+  {
+    id: "7",
+    name: "All-Terrain Hiking Gaiters",
+    description:
+      "Rugged waterproof gaiters that protect your lower legs and keep debris out of your boots. Essential for off-trail hiking and bushwhacking.",
+    price: 49.99,
+    image: "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=800&auto=format&fit=crop",
+    additionalImages: [
+      "https://images.unsplash.com/photo-1551698618-dd8c13c5d55e?w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1543352634-a1c51d9f1fa7?w=800&auto=format&fit=crop",
+    ],
+    category: "apparel",
+    rating: 4.5,
+    reviewCount: 68,
+    features: [
+      "Waterproof and tear-resistant nylon upper",
+      "Reinforced lower section for durability",
+      "Adjustable top closure to keep out snow and debris",
+      "Boot hook and instep strap for secure fit",
+      "Breathable design prevents overheating",
+    ],
+    specifications: [
+      { name: "Height", value: '15"' },
+      { name: "Weight", value: "7 oz/pair" },
+      { name: "Material", value: "1000D Cordura nylon" },
+      { name: "Waterproof", value: "Yes" },
+    ],
+  },
+  {
+    id: "8",
+    name: "Expedition Down Sleeping Bag",
+    description:
+      "Premium 800-fill goose down sleeping bag rated to -20°F. Designed for serious mountaineering and winter camping with maximum warmth-to-weight ratio.",
+    price: 379.99,
+    image: "https://images.unsplash.com/photo-1504851149312-7a075b496cc7?w=800&auto=format&fit=crop",
+    additionalImages: [
+      "https://images.unsplash.com/photo-1455496231601-e6195da1f841?w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1602170284347-c9c7f4b1ad0e?w=800&auto=format&fit=crop",
+    ],
+    category: "sleep",
+    rating: 4.8,
+    reviewCount: 73,
+    isNew: true,
+    features: [
+      "800-fill power goose down insulation",
+      "-20°F temperature rating",
+      "Water-resistant DWR treated shell",
+      "Draft collar and zipper baffle to prevent heat loss",
+      "Compression stuff sack included",
+    ],
+    specifications: [
+      { name: "Fill", value: "800-fill goose down" },
+      { name: "Weight", value: "3.2 lbs" },
+      { name: "Temperature Rating", value: "-20°F" },
+      { name: "Length", value: "Regular (up to 6')" },
+    ],
+  },
+]
+
